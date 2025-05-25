@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>París 2024</title>
+    <style>
+        body {
+            font-family: sans-serif;
+            margin: 0px;
+            color: #3f3f3f;
+        }
+
+        header {
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            background-color: #000000;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 15px;
+        }
+
+        span {
+            color: #FF0000;
+        }
+
+        nav {
+            background-color: #0563a7;
+            padding: 5px;
+            text-align: center;
+            padding: 12px;
+        }
+
+        a {
+            text-decoration: none;
+            color: #ffffff;
+            padding: 3%;
+        }
+
+        a:hover {
+            color: #00d9ff;
+            text-decoration: underline;
+        }
+
+        main {
+            background-color: #ebe8e8;
+            padding: 15px;
+        }
+
+        article {
+            color: #000000;
+            padding: 30px;
+            background-color: #ffffff;
+        }
+
+        figure {
+            text-align: center;
+        }
+
+        figcaption {
+            background-color:#0563a7;
+            color: #ebe8e8;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #000000;
+            text-align: center;
+            color: #FFFFFF;
+            padding: 15px;
+        }
+
+        form {
+            margin-left: auto;
+            margin-right: auto;
+            background-color: #0663A8;
+            box-sizing: border-box;
+            color: white;
+            padding: 5px;
+            width: 100%;
+        }
+
+        input {
+            padding: 5px;
+            width: 90%;
+            color: #00CBF2;
+        }
+
+        input[type="text"] {
+            background-color: #052C3D;
+            font-family: sans-serif;
+            border: none;
+            padding: 10px;
+        }
+
+        input[type="number"] {
+            background-color: #052C3D;
+            font-family: sans-serif;
+            border: none;
+            padding: 10px;
+        }
+
+        input[type="radio"] {
+            width: initial;
+        }
+
+        input:focus, textarea:focus {
+            outline: none;
+        }
+
+        ::placeholder {
+            color: rgb(187, 184, 184);
+        }
+
+        textarea {
+            padding: 50px;
+            width: 90%;
+            background-color: #052C3D;
+            font-family: sans-serif;
+            color: #00CBF2;
+            border: none;
+            box-sizing: border-box;
+        }
+
+        input[type="submit"]{
+            width:initial;
+            color: white;
+            background-color: #4CB050;
+            border: none;
+            width: 100px;
+            padding: 17px;
+            border-radius: 10px;
+        }
+
+        input[type="reset"]{
+            width:initial;
+            color: white;
+            background-color: #D82C28;
+            border: none;
+            width: 100px;
+            padding: 17px;
+            border-radius: 10px;
+        }
+
+        div {
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Sport<span>Today</span></h1>
+        <small>Suplemento especial <span>París 2024</span></small> <br>
+        <img src="https://static.sportytrader.com/content/new/1-MX-TIPSTERS/picto-paris-2024.webp" alt="Logo JJOO Paris 2024">
+    </header>
+        
+    <nav>
+        <a href="../index.html">Home</a> <a href="../info/infografia.html">Infografía</a> <a href="../delegacion/delegacion-argentina.html">Argentina</a> <a href="../medallas/medallero.html">Medallero</a> <a href="../contacto/contacto.html">Contacto</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Contacto y sugerencia</h2>
+            <p>¿Quéres comentarnos algo para mejorar nuestro sitio web? Todo lo que nos sugieras nos ayudará a trabajar con más ímpetu para ofrecerte una web cada vez mejorar</p>
+            <h3>Llena nuestro formulario de contacto</h3>
+            <form action="../recibido/recibido.html">
+                <div>
+                    <p>
+                        <label>Nombre Completo:<br><input type="text" name="name" placeholder="Su nombre" required autocomplete="off" maxlength="30"></label>
+                    </p>
+                    <p>
+                        <label>Edad:<br><input type="number" name="age" placeholder="Su edad" required min="1" max="122"></label>
+                    </p>
+                    <p>
+                        <label>Genero:<br>
+                            <input type="radio" name="sex"> Hombre
+                            <input type="radio" name="sex"> Mujer</label>
+                    </p>
+                    <p>
+                        <label>Sugerencia/Comentario:<br><textarea name="suggestion"></textarea></label>
+                    </p>
+                    <p>
+                        <label><input type="submit" name="enviar" value="Enviar"></label>
+                        <label><input type="reset" name="borrar" value="Borrar" ></label>
+                    </p>
+                </div>
+            </form>
+        </article>
+    </main>
+
+    <footer>
+        <h2>Sport<span>Today</span> <br></h2>
+    <small>Suplemento especial <span>Paris 2024</span></small><br>
+    <br>
+    <strong>Seguinos</strong>
+
+    <figure>
+        <img src="../img/icon_insta_black.png" width="45px">
+        <img src="../img/icon_face_black.png" width="45px">
+        <img src="../img/icon_x_black.png" width="45px">
+    </figure>
+
+    <p>&copy;2024 - todos los derechos reservados</p>
+    </footer>
+</body>
+</html>
