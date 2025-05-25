@@ -1,0 +1,29 @@
+body {
+    background-color: rgb(20, 8, 8);
+    text-align: center;
+    color:rgb(163, 156, 156)
+}
+
+.opciones {
+    background-color: #3f0d0a;
+            border: none;
+            color: rgb(114, 97, 97);
+            padding: 15px 30px;
+            text-align: center;
+            text-decoration: none;
+            display:flexbox;
+            font-size: 16px;
+            margin: 4px 2px;
+            cursor: pointer;
+            border-radius: 8px;
+            box-shadow: 0 4px #000000;
+        }
+.texto {
+    display: flexbox;
+    padding: 15px 30px;
+    background-color: whitesmoke;
+    margin: 4px 2px;
+    border-radius: 40px;
+    background-image: url('https://i.pinimg.com/originals/cc/bf/95/ccbf95d437f831715765bd11c2b1fff6.gif');
+    
+}
