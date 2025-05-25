@@ -1,0 +1,66 @@
+body { 
+    background-image: url(https://ae01.alicdn.com/kf/HTB1vEhJbyfrK1RjSspbq6A4pFXaH.jpg_640x640Q90.jpg_.webp);
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 1800px;
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: rgb(173, 98, 98);
+}
+
+.inicio {
+    display:block;
+    background-color: rgba(0, 0, 255, 0.61);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    padding: 15px 30px;
+    text-decoration: none;
+}
+
+#Trex {
+    font: 24px;
+    color:azure;
+}
+
+#velociraptor {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+#voladores {
+    font-size: 24px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); 
+}
+#acuaticos {
+    color:rgb(66, 192, 161)
+}
+
+
+.carnivoros {
+    background-color: rgb(75, 21, 21);
+}
+.herbivoros {
+    background-color: rgb(30, 75, 21);
+}
+.voladores {
+    background-color: rgb(75, 74, 21);
+}
+.acuatico  {
+    background-color: rgb(21, 38, 75);
+ }
+
+ ul {
+    list-style: none;
+ }
+
+.boton {
+    display:block;
+    background-color: rgba(61, 43, 8, 0.493);
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 5px 10px;
+    margin: 20px 130px;
+    color: rgb(185, 104, 218);
+    text-decoration: none;
+}
