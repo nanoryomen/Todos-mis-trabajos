@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venzene</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <link rel="stylesheet" type="text/css" href="CSS/Style.css">
+    <link rel="icon" type="image/png" href="IMG/logo-img.png">
+</head>
+<body class="font-['Exo_2',sans-serif]">
+  <header class="text-[#f5f5dc] bg-[#3669C7] font-['Exo_2',sans-serif] 2xl:p-5 overflow-x-hidden">
+    <div class="flex flex-row flex-wrap shadow-xl relative justify-between">
+      <h1 class="text-5xl text-left md:ml-6 lg:ml-10"><a href="index.html">Hotel <span class="text-orange-200">Venzene</span></a><br></h1>
+      <img src="IMG/menu.png" class="m-4 sm:hidden w-8 h-8">
+      <nav class="hidden sm:flex text-xl justify-between items-end mb-2 2xl:text-lg"><a href="Nosotros/Nosotros.html" class="underline mr-3">Nosotros</a> <a href="Contactos/Contactos.html" class="underline mr-3">Contacto</a> <a href="Habitaciones/Habitaciones.html" class="underline mr-3">Habitaciones</a> <a href="Servicios/Servicios.html" class="underline mr-3">Servicios</a></nav>
+    </div>
+      <small class="md:ml-6 lg:ml-10 2xl:text-xl">El lugar donde los sueños y el confort se encuentran</small>
+  </header>
+    <main class="overflow-x-hidden">
+        <section class="w-full h-[400px] bg-[url('IMG/fondo-index.jpg')] bg-left bg-no-repeat bg-cover 2xl:h-[700px]">
+        <br>
+        <br>
+        <br>
+        <form from="https://youtu.be/dQw4w9WgXcQ?si=sAU9oCM0Nw5iByiN" method="get" class="w-[90%] max-w-[500px] lg:max-w-[1250px] mx-auto mt-0 p-5 text-black bg-[rgba(240,248,255,0.75)] rounded-2xl shadow-md relative">
+            <label class="ml-[3%] flex flex-row justify-start items-center text-center border-b border-gray-400 xl:text-xl">Entrada:<input  name="Fecha-Entrada" type="date" class="ml-8 p-2.5 xl:p-5" placeholder="Ingrese una fecha"></label>
+            <label class="ml-[3%] flex flex-row justify-start items-center text-center border-b border-gray-400 xl:text-xl">Salida:<input name="Fecha-Salida" class="ml-8 p-2.5 xl:p-5" type="date" placeholder="Ingrese una fecha"></label>
+            <label class="ml-[3%] flex flex-row justify-start items-center text-center border-b border-gray-400 xl:text-xl">Huespedes:
+                <select class="ml-8 p-2.5 xl:p-5">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                </select>
+            </label><br>
+            <p  class="ml-[3%] flex flex-row justify-center text-center border-gray-400 xl:text-2xl"><input name="boton" class="bg-[#fa8734] mb-[5%] text-white p-2.5 lg:p-5 rounded-xl w-50" type="submit"></p>
+        </form>
+        </section>
+           
+        <section class="text-center">
+          <h1 class="text-2xl lg:text-4xl text-center font-bold text-gray-800 p-4 border-b border-t border-gray-300 bg-gray-100">Las habitaciones más populares</h1>
+              <div class="p-[2px] mb-4 border-solid lg:flex">
+                <div class="bg-white shadow-xl m-4 rounded-lg lg:h-[600px]">
+                    <figure class="p-2">
+                      <img src="IMG/hab-8.jpg" alt="" width="100%" class="m-auto rounded-lg 2xl:shadow-sm object-cover w-full h-90">
+                      <figcaption>
+                        <h3 class="font-bold p-2 xl:text-2xl mb-4">Habitación Estándar París</h3>
+                        <a href="Habitaciones/Habitaciones.html" class="bg-[#fa8734] mb-[5%] text-white p-2 rounded-sm xl:text-xl">Consultar más</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+                  <div class="bg-white shadow-xl m-4 rounded-lg">
+                    <figure class="p-2">
+                      <img src="IMG/hab-4.jpg" alt="" width="100%" class="m-auto rounded-lg 2xl:shadow-sm object-cover w-full h-90">
+                      <figcaption>
+                        <h3 class="font-bold p-2 xl:text-2xl mb-4">Habitación Familiar Superior</h3>
+                        <a href="Habitaciones/Habitaciones.html" class="bg-[#fa8734] mb-[5%] text-white p-2 rounded-sm xl:text-xl">Consultar más</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+                <div class="bg-white shadow-xl m-4 rounded-lg">
+                    <figure class="p-2">
+                      <img src="IMG/hab-3.jpg" alt="" width="100%" class="m-auto rounded-lg 2xl:shadow-sm object-cover w-full h-90">
+                      <figcaption>
+                        <h3 class="font-bold p-2 xl:text-2xl mb-4">Habitación Twin Deluxe</h3>
+                        <a href="Habitaciones/Habitaciones.html" class="bg-[#fa8734] mb-[5%] text-white rounded-sm p-2 xl:text-xl">Consultar más</a>
+                      </figcaption>
+                    </figure>
+                  </div>
+              </div>
+        </section>
+    </main>
+    <section class="sm:hidden flex flex-col gap-1">
+      navegue:<br>
+      <a href="index.html" class="bg-blue-600 max-w-[100px] text-center text-white rounded">Venzene</a><br>
+      <a href="Nosotros/Nosotros.html" class="bg-blue-600 max-w-[100px] text-center text-white rounded">Nosotros</a><br>
+      <a href="Contactos/Contactos.html" class="bg-blue-600 max-w-[100px] text-center text-white rounded">Contactos</a><br>
+      <a href="Habitaciones/Habitaciones.html" class="bg-blue-600 max-w-[100px] text-center text-white rounded">Habitaciones</a><br>
+      <a href="Servicios/Servicios.html" class="bg-blue-600 max-w-[100px] text-center text-white rounded">Servicios</a><br>
+    </section>
+    <footer class="bg-[#2257ba] text-white py-6 overflow-hidden">
+      <div class="px-4 flex flex-col md:flex-row justify-between items-center md:space-x-6">
+        <div class="text-center md:text-left">
+          <p class="text-sm md:text-base lg:text-lg">© 2025 Hotel Venzene. Todos los derechos reservados.</p>
+          <p class="text-sm md:text-base lg:text-lg">© Galindez Mario Fernando</p>
+        </div>
+        <div class="text-center">
+          <p class="text-base font-semibold mb-2">¡Visítanos!</p>
+          <div class="flex items-center justify-center space-x-6">
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=sAU9oCM0Nw5iByiN" class="flex flex-col items-center">
+              <img src="IMG/icon_insta_black.png" alt="Instagram" class="w-8 h-8 md:w-10 md:h-10 rounded">
+              <span class="text-sm mt-1">Instagram</span>
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=sAU9oCM0Nw5iByiN" class="flex flex-col items-center">
+              <img src="IMG/icon_x_black.png" alt="X" class="w-8 h-8 md:w-10 md:h-10 rounded">
+              <span class="text-sm mt-1">X</span>
+            </a>
+            <a href="https://youtu.be/dQw4w9WgXcQ?si=sAU9oCM0Nw5iByiN" class="flex flex-col items-center">
+              <img src="IMG/icon_face_black.png" alt="Facebook" class="w-8 h-8 md:w-10 md:h-10 rounded">
+              <span class="text-sm mt-1">Facebook</span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </footer>
+</body>
+</html>
