@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta             name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Reclamo</title>
+    <link rel="icon" type="image/png" href="img/shika.png">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header { 
+            background-color: #921919;
+            padding: 15px;
+            color: white;
+            text-align: center;
+            font-size: 24px;
+        }
+
+        main {
+            width: 60%;
+            margin: 30px auto;
+        }
+
+        article {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+        }
+
+        h2 {
+            color: #333;
+        }
+
+        p {
+            font-size: 16px;
+            color: #444444;
+        }
+
+        form {
+            width: 90%;
+            margin: auto;
+            text-align: left;
+        }
+
+        label {
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+
+        input, select, textarea {
+            width: 100%;
+            padding: 10px;
+            border-radius: 5px;
+            font-size: 16px;
+            margin-bottom: 10px;
+        }
+
+        textarea {
+            height: 100px;
+        }
+
+        input[type="radio"] {
+            width: initial;
+            margin-right: 5px;
+        }
+
+        input[type="submit"], input[type="reset"] {
+            background-color: #921919;
+            color: white;
+            border: 1px solid;
+            padding: 10px;
+            cursor: pointer;
+            font-size: 16px;
+            border-radius: 5px;
+            margin: 5px;
+            width: 48%;
+            text-align: center;
+        }
+
+        footer {
+            background-color: #222222;
+            text-align: center;
+            color: white; 
+            padding: 20px 0;
+            margin-top: 13.6%;
+            font-size: 14px;
+            width: 100%;
+        }
+
+        footer a {
+            color: #be8334;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        footer p {
+            color: white; 
+            font-size: 16px;
+        }
+    </style>
+</head>
+<body>
+    
+    <header>
+        <h1>FORMULARIO WEB</h1>
+        <h2>Reclamos</h2>
+    </header>
+    <main>
+    <article>
+        
+        <p id="momos">Ingrese sus datos personales para una buena atención</p>
+        <form action="..//tp10_mario_fernando_galindez/reclamo.html">
+            <p>
+                <label>
+                    Cliente ID:<br>
+                    <input type="text" name="ClientID" placeholder="Escriba su código de cliente" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Nombre:<br>
+                    <input type="text" name="name" placeholder="Escriba aqui su nombre" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Apellido:<br>
+                    <input type="text" name="Lastname" placeholder="Escriba aqui su apellido">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Elija su tipo de documento:<br>
+                    <select name="menu" required>
+                        <option>D.N.I</option>
+                        <option>Pasaporte</option>
+                        <option>LC</option>
+                    </select>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    N° documento:<br>
+                    <input type="number" name="document" placeholder="Escriba su Documento" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Email:<br>
+                    <input type="email" name="mail" placeholder="Escriba su correo" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Género:<br>
+                    <input type="radio" name="sex" value="M"> Hombre
+                    <input type="radio" name="sex" value="W"> Mujer
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Contraseña:<br>
+                    <input type="password" name="password" placeholder="Introduzca su contraseña" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Fecha de reclamo:<br>
+                    <input type="date" name="date" required>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Reclamo:<br>
+                    <textarea name="reclamo" required>
+                    </textarea>
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    Foto del siniestro:<br>
+                    <input type="file" name="photo">
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input type="submit" name="boton" value="Enviar Reclamo">
+                    <input type="reset" name="boton" value="Limpiar todo">
+                </label>
+            </p>
+        </form>
+    </article>
+    </main>
+    <footer>
+        <p>&copy; 2025 Formulario de Reclamo. Todos los derechos reservados.</p>
+        <p>Contacto: <a href="mailto:soporte@tusitio.com">soporte@tusitio.com</a></p>
+        <nav>
+            <a href="https://www.youtube.com/watch?v=uHgt8giw1LY">Inicio</a> | 
+            <a href="https://www.youtube.com/watch?v=uHgt8giw1LY">Política de privacidad</a> | 
+            <a href="https://www.youtube.com/watch?v=uHgt8giw1LY">Términos y condiciones</a>
+        </nav>
+    </footer>
+</body>
+</html>
